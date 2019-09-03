@@ -1,0 +1,405 @@
+﻿<!-- CHEATER! All right- see how this game was loaded. But now you'll know what all the right answers are. -->
+
+<game>
+	<preload>
+		<LoaderMax name="General" load="true">
+			<firstUp>
+				<MP3Loader name="QI0" url="sound/first01.mp3" autoPlay="false" />
+				<MP3Loader name="QI1" url="sound/first02.mp3" autoPlay="false" />
+			</firstUp>
+			<nextUp>
+				<MP3Loader name="NI0" url="sound/next01.mp3" autoPlay="false" />
+				<MP3Loader name="NI1" url="sound/next02.mp3" autoPlay="false" />
+				<MP3Loader name="NI2" url="sound/next03.mp3" autoPlay="false" />
+				<MP3Loader name="NI3" url="sound/next04.mp3" autoPlay="false" />
+				<MP3Loader name="NI4" url="sound/next05.mp3" autoPlay="false" />
+				<MP3Loader name="NI5" url="sound/next06.mp3" autoPlay="false" />
+				<MP3Loader name="NI6" url="sound/next07.mp3" autoPlay="false" />
+			</nextUp>
+			<ohwell>
+				<MP3Loader name="F0" url="sound/ohwell01.mp3" autoPlay="false" />
+				<MP3Loader name="F1" url="sound/ohwell02.mp3" autoPlay="false" />
+				<MP3Loader name="F2" url="sound/ohwell03.mp3" autoPlay="false" />
+				<MP3Loader name="F3" url="sound/ohwell04.mp3" autoPlay="false" />
+				<MP3Loader name="F4" url="sound/ohwell05.mp3" autoPlay="false" />
+				<MP3Loader name="F5" url="sound/ohwell06.mp3" autoPlay="false" />
+				<MP3Loader name="F6" url="sound/ohwell07.mp3" autoPlay="false" />
+			</ohwell>
+			<closingThought>
+				<MP3Loader name="GA" url="sound/scoreA.mp3" autoPlay="false" />
+				<MP3Loader name="GB" url="sound/scoreB.mp3" autoPlay="false" />
+				<MP3Loader name="GC" url="sound/scoreC.mp3" autoPlay="false" />
+				<MP3Loader name="G0" url="sound/score0.mp3" autoPlay="false" />
+				<MP3Loader name="GD" url="sound/scoreD.mp3" autoPlay="false" />
+				<MP3Loader name="GE" url="sound/scoreE.mp3" autoPlay="false" />
+				<MP3Loader name="GF" url="sound/scoreF.mp3" autoPlay="false" />
+			</closingThought>
+			<SFX>
+				<swoosh><MP3Loader name="FX01" url="sound/jack1.Mc80.mp3" autoPlay="false"/></swoosh>
+				<click><MP3Loader name="FX02" url="sound/jacksnd1.Mc87.mp3" autoPlay="false"/></click>
+				<right><MP3Loader name="FX03" url="sound/jacksnd1.Mc93.mp3" autoPlay="false"/></right>
+				<wrong><MP3Loader name="FX04" url="sound/jacksnd1.Mc96.mp3" autoPlay="false"/></wrong>
+				<prewrong>
+					<MP3Loader name="FX05a" url="sound/jacksnd1.Mc92.mp3" autoPlay="false"/>
+					<MP3Loader name="FX05b" url="sound/jacksnd2.Mc92.mp3" autoPlay="false"/>
+					<MP3Loader name="FX05c" url="sound/jacksnd3.Mc92.mp3" autoPlay="false"/>
+					<MP3Loader name="FX05d" url="sound/jacksnd4.Mc92.mp3" autoPlay="false"/>
+					<MP3Loader name="FX05e" url="sound/jacksnd5.Mc92.mp3" autoPlay="false"/>
+				</prewrong>
+				<postwrong>
+					<MP3Loader name="FX06a" url="sound/jacksnd1.Mc95.mp3" autoPlay="false"/>
+					<MP3Loader name="FX06b" url="sound/jacksnd2.Mc95.mp3" autoPlay="false"/>
+					<MP3Loader name="FX06c" url="sound/jacksnd3.Mc95.mp3" autoPlay="false"/>
+					<MP3Loader name="FX06d" url="sound/jacksnd4.Mc95.mp3" autoPlay="false"/>
+					<MP3Loader name="FX06e" url="sound/jacksnd5.Mc95.mp3" autoPlay="false"/>
+					<MP3Loader name="FX06f" url="sound/jacksnd6.Mc95.mp3" autoPlay="false"/>
+				</postwrong>
+				<questionEnd>
+					<MP3Loader name="QE01" url="sound/jacksnd1.Mc81.mp3" autoPlay="false" />
+					<MP3Loader name="QE02" url="sound/jacksnd2.Mc81.mp3" autoPlay="false" />
+					<MP3Loader name="QE03" url="sound/jacksnd3.Mc81.mp3" autoPlay="false" />
+				</questionEnd>
+				<attackwrong>
+					<MP3Loader name="JAW" url="sound/jattackWrong.mp3" autoPlay = "false" />
+				</attackwrong>
+			</SFX>
+			<music>
+				<qmusic>
+					<dummyNode />
+					<dummyNode />
+					<dummyNode />
+					<dummyNode />
+					<dummyNode />
+					<dummyNode />
+				</qmusic>
+			</music>
+			<scruples>
+				<LoaderMax name="S" load="true">
+					<choice>
+						<answer><![CDATA[Yes. He's a hack.]]></answer>
+						<response>
+							<!--line time="3"><![CDATA[ No need to be harsh!]]></line-->
+							<line time="3"><![CDATA[But he's a fan of the game!]]></line>
+							<line time="4"><![CDATA[You might not want to check out his web videos, then.]]></line>
+						</response>
+					</choice>
+					<choice>
+						<answer><![CDATA[Nah, it’s an homage.]]></answer>
+						<response>
+							<line time="4"><![CDATA[But it's been done before!]]></line>
+							<line time="5"><![CDATA[Don't worry, he's done original stuff, too...]]></line>
+						</response>
+					</choice>
+					<question><![CDATA[Some punk has ripped off YOU DON’T KNOW JACK for a portfolio demonstration. Does this lack originality?]]></question>
+					<VideoLoader name="Sv" url="video/scruples.flv" autoPlay="false" />
+					<gameIntro>
+						<MP3Loader name="I0" url="sound/gameIntro1.mp3" autoPlay="false" />
+						<MP3Loader name="I1" url="sound/gameIntro2.mp3" autoPlay="false" />
+						<MP3Loader name="I2" url="sound/gameIntro3.mp3" autoPlay="false" />
+						<MP3Loader name="I3" url="sound/gameIntro4.mp3" autoPlay="false" />
+					</gameIntro>
+					<shimmer>
+						<MP3Loader name="Ss" url="sound/Intro.Ma44.mp3" autoPlay="false" />
+					</shimmer>
+					<themeMusic>
+						<MP3Loader name="St0" url="sound/Intro1.Ma42.mp3" autoPlay="false" />
+						<MP3Loader name="St1" url="sound/Intro2.Ma42.mp3" autoPlay="false" />
+						<MP3Loader name="St2" url="sound/Intro3.Ma42.mp3" autoPlay="false" />
+					</themeMusic>
+					<voice>
+						<MP3Loader name="Sv0a" url="sound/Intro1.Ma32.mp3" autoPlay="false" />
+						<MP3Loader name="Sv1a" url="sound/Intro2.Ma32.mp3" autoPlay="false" />
+					</voice>
+					<voiceBored>
+						<MP3Loader name="Sv2a" url="sound/Intro3.Ma32.mp3" autoPlay="false" />
+						<MP3Loader name="Sv3a" url="sound/Intro4.Ma32.mp3" autoPlay="false" />
+					</voiceBored>
+					<goodBye>
+						<MP3Loader name="Sv4a" url="sound/Intro1.Ma57.mp3" autoPlay="false" />
+						<MP3Loader name="Sv5a" url="sound/Intro2.Ma57.mp3" autoPlay="false" />
+						<MP3Loader name="Sv6a" url="sound/Intro4.Ma57.mp3" autoPlay="false" />
+						<MP3Loader name="Sv7a" url="sound/Intro5.Ma57.mp3" autoPlay="false" />
+					</goodBye>
+					<responseMusic>
+						<MP3Loader name="Sr0" url="sound/Intro1.Ma40.mp3" autoPlay="false" />
+						<MP3Loader name="Sr1" url="sound/Intro2.Ma40.mp3" autoPlay="false" />
+						<MP3Loader name="Sr2" url="sound/Intro3.Ma40.mp3" autoPlay="false" />
+					</responseMusic>
+					<clang>
+						<MP3Loader name="SC" url="sound/Intro.Ma17.mp3" autoPlay="false" />
+					</clang>
+				</LoaderMax>
+			</scruples>
+		</LoaderMax>
+	</preload>
+	<question>
+		<LoaderMax name="Q0" load="false" c="3">
+			<video>
+				<VideoLoader name="Q0V" url="video/q1.flv" autoPlay="false"/>
+			</video>
+
+			<title>
+				<MP3Loader name="Q0T" url="sound/q0t.mp3" autoPlay="false" />
+				<text><![CDATA[What’s In a Name?]]></text>
+			</title>
+			
+			<intro>
+				<MP3Loader name="Q0I" url="sound/q0i.mp3" autoPlay="false"/>
+			</intro>
+			
+			<question>
+				<MP3Loader name="Q0Q" url="sound/q0q.mp3" autoPlay="false" />
+				<text><![CDATA[How do you pronounce my<br>first name?]]></text>
+			</question>
+			
+			<choices>
+				<MP3Loader name="Q0C" url="sound/q0c.mp3" autoPlay="false"/>
+			</choices>
+			
+			<response>
+				<MP3Loader name="Q0A0" url="sound/q0a1.mp3" autoPlay="false"/>
+				<text><![CDATA[Fard]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q0A1" url="sound/q0a2.mp3" autoPlay="false"/>
+				<text><![CDATA[Ferd]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q0A2" url="sound/q0a3.mp3" autoPlay="false"/>
+				<text><![CDATA[Ford]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q0A3" url="sound/q0a4.mp3" autoPlay="false"/>
+				<text><![CDATA[Furahd]]></text>
+			</response>
+			
+			<coda>
+				<MP3Loader name="Q0Z" url="sound/q0z.mp3" autoPlay="false"/>
+			</coda>
+		</LoaderMax>
+		<LoaderMax name="Q1" load="false" c="2">
+			<video>
+				<VideoLoader name="Q1V" url="video/q2.flv" autoPlay="false"/>
+			</video>
+
+			<title>
+				<MP3Loader name="Q1T" url="sound/q1t.mp3" autoPlay="false" />
+				<text><![CDATA[Geometry: The Video Game]]></text>
+			</title>
+			
+			<intro>
+				<MP3Loader name="Q1I" url="sound/q1i.mp3" autoPlay="false"/>
+			</intro>
+			
+			<question>
+				<MP3Loader name="Q1Q" url="sound/q1q.mp3" autoPlay="false" />
+				<text><![CDATA[Which game console used the slogan “Do The Math” in its ad campaign?]]></text>
+			</question>
+			
+			<choices>
+				<MP3Loader name="Q1C" url="sound/q1c.mp3" autoPlay="false"/>
+			</choices>
+			
+			<response>
+				<MP3Loader name="Q1A0" url="sound/q1a1.mp3" autoPlay="false"/>
+				<text><![CDATA[Sega Genesis]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q1A1" url="sound/q1a2.mp3" autoPlay="false"/>
+				<text><![CDATA[Mattel Intellivision]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q1A2" url="sound/q1a3.mp3" autoPlay="false"/>
+				<text><![CDATA[Atari Jaguar]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q1A3" url="sound/q1a4.mp3" autoPlay="false"/>
+				<text><![CDATA[Sony PlayStation 3]]></text>
+			</response>
+			
+			<coda>
+				<MP3Loader name="Q1Z" url="sound/q1z.mp3" autoPlay="false"/>
+			</coda>
+		</LoaderMax>
+		<LoaderMax name="Q2" load="false" c="0">
+			<video>
+				<VideoLoader name="Q2V" url="video/q3.flv" autoPlay="false"/>
+			</video>
+
+			<title>
+				<MP3Loader name="Q2T" url="sound/q2t.mp3" autoPlay="false" />
+				<text><![CDATA[Prime Time]]></text>
+			</title>
+			
+			<intro>
+				<MP3Loader name="Q2I" url="sound/q2i.mp3" autoPlay="false"/>
+			</intro>
+			
+			<question>
+				<MP3Loader name="Q2Q" url="sound/q2q.mp3" autoPlay="false" />
+				<text><![CDATA[Which brush with TV greatness<br>did I achieve?]]></text>
+			</question>
+			
+			<choices>
+				<MP3Loader name="Q2C" url="sound/q2c.mp3" autoPlay="false"/>
+			</choices>
+			
+			<response>
+				<MP3Loader name="Q2A0" url="sound/q2a1.mp3" autoPlay="false"/>
+				<text><![CDATA[Become the first audience member of Conan’s “Tonight Show”]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q2A1" url="sound/q2a2.mp3" autoPlay="false"/>
+				<text><![CDATA[Worked as an extra on “Seinfeld”]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q2A2" url="sound/q2a3.mp3" autoPlay="false"/>
+				<text><![CDATA[Played the Grand Prize Game on “The Bozo Show”]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q2A3" url="sound/q2a4.mp3" autoPlay="false"/>
+				<text><![CDATA[Played a red-shirt on “Star Trek: The Next Generation”]]></text>
+			</response>
+			
+		</LoaderMax>
+		<LoaderMax name="Q3" load="false" c="1">
+			<video>
+				<VideoLoader name="Q3V" url="video/q4.flv" autoPlay="false"/>
+			</video>
+
+			<title>
+				<MP3Loader name="Q3T" url="sound/q3t.mp3" autoPlay="false" />
+				<text><![CDATA[I Think I Know Jack]]></text>
+			</title>
+			
+			<intro>
+				<MP3Loader name="Q3I" url="sound/q3i.mp3" autoPlay="false"/>
+			</intro>
+			
+			<question>
+				<MP3Loader name="Q3Q" url="sound/q3q.mp3" autoPlay="false" />
+				<text><![CDATA[Which unique feat was I able<br>to do in the 2011 Edition of<br>“YOU DON’T KNOW JACK”?]]></text>
+			</question>
+			
+			<choices>
+				<MP3Loader name="Q3C" url="sound/q3c.mp3" autoPlay="false"/>
+			</choices>
+			
+			<response>
+				<MP3Loader name="Q3A0" url="sound/q3a1.mp3" autoPlay="false"/>
+				<text><![CDATA[Bought the first copy of the game]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q3A1" url="sound/q3a2.mp3" autoPlay="false"/>
+				<text><![CDATA[Created the first four-way tie]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q3A2" url="sound/q3a3.mp3" autoPlay="false"/>
+				<text><![CDATA[Played all 72 original rounds before the first Jack Pack was released]]></text>
+			</response>
+			
+			<response>
+				<MP3Loader name="Q3A3" url="sound/q3a4.mp3" autoPlay="false"/>
+				<text><![CDATA[Played the first online game via Xbox Live]]></text>
+			</response>
+			<coda>
+				<MP3Loader name="Q3Z" url="sound/q3z.mp3" autoPlay="false"/>
+			</coda>
+		</LoaderMax>
+		<LoaderMax name="FF" load="false" final="true">
+			<video>
+				<VideoLoader name="QFV" url="video/ff.flv" autoPlay="false"/>
+				<VideoLoader name="QFV2" url="video/finalscores.flv" autoPlay="false"/>
+			</video>
+
+			<title>
+				<text><![CDATA[It’s In The Résumé]]></text>
+				<MP3Loader name="QFT" url="sound/finalTitle.mp3" autoPlay="false"/>
+			</title>
+			<intro>
+				<MP3Loader name="QFI" url="sound/finalIntro.mp3" autoPlay="false"/>
+			</intro>
+			<choice>
+				<title><![CDATA[I received my bachelor’s degree from...]]></title>
+				<phrase><![CDATA[IIT]]></phrase>
+				<phrase><![CDATA[ITT]]></phrase>
+				<phrase><![CDATA[Wilbur Wright College]]></phrase>
+				<phrase><![CDATA[Temple University]]></phrase>
+				<phrase><![CDATA[Barnum & Bailey’s Clown College]]></phrase>
+				<phrase><![CDATA[Bringham Young University]]></phrase>
+				<phrase><![CDATA[Whitney Young High School]]></phrase>
+			</choice>
+			<choice>
+				<title><![CDATA[I have a master’s degree in...]]></title>
+				<phrase><![CDATA[Computer Graphics & Animation]]></phrase>
+				<phrase><![CDATA[Basketweaving]]></phrase>
+				<phrase><![CDATA[Late Night Talk Show-ology]]></phrase>
+				<phrase><![CDATA[Philosophy]]></phrase>
+				<phrase><![CDATA[Computer Something Technical]]></phrase>
+				<phrase><![CDATA[SCIENCE!!!!!]]></phrase>
+				<phrase><![CDATA[Competitive Eating]]></phrase>
+			</choice>
+			<choice>
+				<title><![CDATA[I started working at PointRoll in...]]></title>
+				<phrase><![CDATA[2006]]></phrase>
+				<phrase><![CDATA[2001]]></phrase>
+				<phrase><![CDATA[1980]]></phrase>
+				<phrase><![CDATA[2015]]></phrase>
+				<phrase><![CDATA[1972]]></phrase>
+				<phrase><![CDATA[A.D. 2101]]></phrase>
+				<phrase><![CDATA[3000 B.C.]]></phrase>
+			</choice>
+			<choice>
+				<title><![CDATA[My portfolio is located at...]]></title>
+				<phrase><![CDATA[Fardmuhammad.com]]></phrase>
+				<phrase><![CDATA[Facebook]]></phrase>
+				<phrase><![CDATA[DeviantArt]]></phrase>
+				<phrase><![CDATA[Zanies.com]]></phrase>
+				<phrase><![CDATA[Atari.com]]></phrase>
+				<phrase><![CDATA[My desk]]></phrase>
+				<phrase><![CDATA[TeamCoco.com]]></phrase>
+			</choice>
+			<choice>
+				<title><![CDATA[I have not yet worked for...]]></title>
+				<phrase><![CDATA[DisneyWorld]]></phrase>
+				<phrase><![CDATA[Arc Worldwide]]></phrase>
+				<phrase><![CDATA[Riverside Publishing]]></phrase>
+				<phrase><![CDATA[Motorola]]></phrase>
+				<phrase><![CDATA[Ogilvy One]]></phrase>
+				<phrase><![CDATA[JWT]]></phrase>
+				<phrase><![CDATA[Liquidus]]></phrase>
+			</choice>
+			<choice>
+				<title><![CDATA[I am currently living in...]]></title>
+				<phrase><![CDATA[Evanston, IL]]></phrase>
+				<phrase><![CDATA[Dempster, IL]]></phrase>
+				<phrase><![CDATA[Chicago, IL]]></phrase>
+				<phrase><![CDATA[Los Angeles, CA]]></phrase>
+				<phrase><![CDATA[New York City]]></phrase>
+				<phrase><![CDATA[my car]]></phrase>
+				<phrase><![CDATA[Downtown Burbank]]></phrase>
+			</choice>
+			<choice>
+				<title><![CDATA[My main e-mail address is...]]></title>
+				<phrase><![CDATA[mister@fardmuhammad.com]]></phrase>
+				<phrase><![CDATA[fard@altavista.com]]></phrase>
+				<phrase><![CDATA[ford@infoseek.com]]></phrase>
+				<phrase><![CDATA[lenosucks@rocketmail.com]]></phrase>
+				<phrase><![CDATA[atarifan@geocities.com]]></phrase>
+				<phrase><![CDATA[Trick Question- I don’t use e-mail]]></phrase>
+				<phrase><![CDATA[lebron@dragonbored.com]]></phrase>
+			</choice>
+		</LoaderMax>
+	</question>
+</game>
